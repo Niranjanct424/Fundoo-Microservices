@@ -1,0 +1,9 @@
+server.port=8080
+spring.application.name=zuul
+
+zuul.prefix=/fundoo
+zuul.routes.user-service.path=/user-service/**
+zuul.routes.user-service.url=http://localhost:8081
+
+zuul.routes.note-service.path=/note-service/**
+zuul.routes.note-service.url=http://localhost:8082
