@@ -108,7 +108,7 @@ public class UserController {
 	}
 	
 	/**
-	 * Api to get perticular user
+	 * calling this api from note service to get the userId to create note
 	 * @param userId given by the user to get the detail
 	 * @return returns user object
 	 */
